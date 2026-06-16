@@ -1,0 +1,37 @@
+site_id,region,site_name,priority_band,priority_rank,recovery_cluster,required_radio_sku,radio_qty,required_cabinet_sku,cabinet_qty,required_power_sku,power_qty,required_fiber_sku,fiber_qty,planned_release_date,site_deployment_status,substitution_allowed_flag,coastal_flag,firmware_ready_flag,cable_tail_m,site_note
+ST-001,North Metro,Alder Exchange,P1,1,Alpha,RRU-64T-A,2,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,2,18/07/2026,Release Ready,Yes,No,Yes,18,Flag predates July policy freeze
+ST-002,North Metro,Brixton Hub,P1,2,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,2,20/07/2026,Release Ready,Yes,No,Yes,21,Emergency service backhaul site
+ST-003,Coast East,Cove Point,P1,3,Alpha,RRU-64T-A,2,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,24/07/2026,Release Ready,Yes,Yes,No,12,Coastal wind exposure
+ST-004,South Metro,Denton Core,P2,4,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,25/07/2026,Release Ready,Yes,No,Yes,19,Priority pending policy memo override
+ST-005,West Ridge,Ealing Spur,P1,5,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,26/07/2026,Release Ready,Yes,No,Yes,17,Firmware accepted
+ST-006,West Ridge,Fenton Relay,P1,6,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,27/07/2026,Release Ready,Yes,No,Yes,22,Power substitution candidate
+ST-007,Coast East,Gable Beach,P1,7,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,27/07/2026,Release Ready,Yes,Yes,Yes,23,Coastal restriction applies
+ST-008,North Metro,Hale Street,P1,8,Alpha,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,28/07/2026,Release Ready,Yes,No,No,16,Legacy BBU firmware
+ST-009,South Metro,Ivy Yard,P2,9,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,28/07/2026,Partial Release,Yes,No,Yes,20,Supplier date under review
+ST-010,North Metro,Juniper Road,P2,10,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,29/07/2026,Release Ready,Yes,No,Yes,11,Short cable tail
+ST-011,West Ridge,Kestrel Tower,P2,11,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,2,29/07/2026,Release Ready,Yes,No,Yes,24,Second fibre kit requested
+ST-012,Coast East,Lark Harbour,P2,12,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,30/07/2026,Release Ready,Yes,Yes,Yes,18,Coastal cabinet needed
+ST-013,South Metro,Marlowe Yard,P2,13,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,30/07/2026,Partial Release,Yes,No,Yes,14,Power module watch item
+ST-014,North Metro,Norwood Fire,P1,14,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,2,30/07/2026,Release Ready,Yes,No,Yes,28,Emergency reserve draw candidate
+ST-015,West Ridge,Orion Park,P2,15,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,31/07/2026,Release Ready,Yes,No,Yes,21,Standard site
+ST-016,South Metro,Parker Lane,P2,16,Beta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,31/07/2026,Release Ready,Yes,No,Yes,19,Standard site
+ST-017,Coast East,Quay House,P2,17,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,01/08/2026,Supplier Hold,Yes,Yes,Yes,25,Planned date after target
+ST-018,West Ridge,Rook Farm,P2,18,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,01/08/2026,Supplier Hold,Yes,No,Yes,20,Power substitution approved by memo
+ST-019,North Metro,Saxon Mall,P2,19,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,02/08/2026,Supplier Hold,Yes,No,Yes,13,Long lead cabinet
+ST-020,South Metro,Tennyson Row,P1,20,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,02/08/2026,Release Ready,Yes,No,Yes,18,Priority pending demotion due access permit
+ST-021,Coast East,Upton Pier,P2,21,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,03/08/2026,Supplier Hold,Yes,Yes,Yes,19,Carrier exception expected
+ST-022,West Ridge,Violet Lane,P2,22,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,03/08/2026,Release Ready,Yes,No,Yes,18,Awaiting signed commitment
+ST-023,North Metro,Willow Yard,P2,23,Gamma,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,04/08/2026,Release Ready,Yes,No,,17,Firmware evidence missing
+ST-024,South Metro,Xenia Court,P3,24,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,04/08/2026,Supplier Hold,Yes,No,Yes,22,Lower priority
+ST-025,Coast East,Yarrow Dock,P3,25,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,05/08/2026,Supplier Hold,Yes,Yes,No,14,Legacy BBU and coastal
+ST-026,West Ridge,Zenith Hall,P3,26,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,05/08/2026,Supplier Hold,Yes,No,Yes,16,Standard site
+ST-027,North Metro,Ashford Yard,P3,27,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,06/08/2026,Supplier Hold,Yes,No,,18,Firmware status blank
+ST-028,South Metro,Benson Field,P3,28,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,06/08/2026,Supplier Hold,Yes,No,Yes,15,Cost approval watch
+ST-029,West Ridge,Cedar Exchange,P3,29,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,07/08/2026,Supplier Hold,Yes,No,Yes,20,Awaiting fibre kit
+ST-030,Coast East,Drake Bay,P3,30,Delta,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,07/08/2026,Supplier Hold,Yes,Yes,Yes,26,Coastal cabinet issue
+ST-031,North Metro,Elm Cross,P3,31,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,08/08/2026,Supplier Hold,Yes,No,Yes,18,Substitution expected
+ST-032,South Metro,Foxglove Court,P3,32,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,08/08/2026,Supplier Hold,Yes,No,Yes,19,Substitution expected
+ST-033,West Ridge,Granite Spur,P3,33,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,09/08/2026,Supplier Hold,Yes,No,Yes,21,Standard site
+ST-034,North Metro,Hawthorn Node,P3,34,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,09/08/2026,Supplier Hold,Yes,No,Yes,12,Short cable tail
+ST-035,Coast East,Ibis Wharf,P3,35,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,10/08/2026,Supplier Hold,Yes,Yes,Yes,22,Coastal and late
+ST-036,South Metro,Juno Park,P3,36,Epsilon,RRU-64T-A,1,CAB-OD-42U,1,PWR-RECT-3K,1,FTK-24F,1,10/08/2026,Supplier Hold,Yes,No,Yes,17,Final wave

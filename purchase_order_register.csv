@@ -1,0 +1,15 @@
+po_id,sku,supplier,po_status_snapshot,po_qty,snapshot_eta_date,planned_carrier,destination_hub,incremental_cost_usd,linked_site_id,commitment_ref,substitution_for_sku,po_note
+PO-4001,RRU-64T-A,RadioWorks,In Transit,12,20/07/2026,TranzLine,Main Hub,2400,Various P1,SC-101,,Snapshot says full quantity available before target
+PO-4002,RRU-64T-B,RadioWorks,Firm Planned,6,21/07/2026,TranzLine,Main Hub,4500,ST-004;ST-005;ST-006;ST-008;ST-023;ST-027,SC-102,RRU-64T-A,Substitution batch snapshot predates signed commitment
+PO-4003,CAB-OD-42U,CabinetCo,In Transit,4,22/07/2026,NorthCart,Main Hub,2800,ST-009;ST-010;ST-011;ST-012,SC-103,,Carrier issue closed after revised slot
+PO-4004,CAB-OD-42U-S,CabinetCo,Firm Planned,5,19/07/2026,NorthCart,Main Hub,3750,ST-013;ST-015;ST-016;ST-018;ST-019,SC-104,CAB-OD-42U,Snapshot marks coastal eligible but memo restricts
+PO-4005,PWR-RECT-3K-R,PowerGrid,In Transit,6,23/07/2026,ParcelFast,Main Hub,6600,ST-006;ST-018;ST-028,SC-105,PWR-RECT-3K,Requires power engineer approval and cost review
+PO-4006,FTK-24F-L,FiberLink,In Transit,10,23/07/2026,ParcelFast,Main Hub,1500,ST-004;ST-005;ST-006;ST-007;ST-011;ST-014;ST-018;ST-029;ST-030;ST-035,SC-106,FTK-24F,Long-tail kits linked to cable-tail eligibility
+PO-4007,FTK-24F,FiberLink,Firm Planned,5,06/08/2026,ParcelFast,Main Hub,1250,ST-021;ST-022;ST-024;ST-025;ST-026,SC-107,,Planned after target
+PO-4008,RRU-64T-B,RadioWorks,Approved,5,26/07/2026,RoadRail,Main Hub,5200,ST-031;ST-032;ST-033;ST-034;ST-036,SC-108,RRU-64T-A,Carrier exception open after target
+PO-4009,CAB-OD-42U,CabinetCo,Approved,6,02/08/2026,RoadRail,Main Hub,4200,ST-020;ST-021;ST-022;ST-024;ST-026;ST-033,SC-109,,Supplier delivery confirmation overrides snapshot
+PO-4010,PWR-RECT-3K,PowerGrid,Approved,8,29/07/2026,TranzLine,Main Hub,0,ST-017;ST-019;ST-021;ST-022;ST-024;ST-025;ST-026;ST-029,SC-110,,Baseline replenishment
+PO-4011,RRU-64T-A,RadioWorks,Pending Approval,10,05/08/2026,TranzLine,Main Hub,0,Delta and Epsilon sites,,,No signed commitment exists
+PO-4012,FTK-24F-L,FiberLink,Approved,4,26/07/2026,ParcelFast,Main Hub,2200,ST-027;ST-028;ST-031;ST-032,SC-112,FTK-24F,Carrier exception changes date
+PO-4013,CAB-OD-30U,CabinetCo,Available,4,18/07/2026,Stock,Main Hub,0,ST-030;ST-035,,CAB-OD-42U,Not an approved substitute in policy memo
+PO-4014,RRU-64T-A,RadioWorks,Approved,2,30/07/2026,RoadRail,Main Hub,1200,ST-999,SC-114,,Site appears only in PO and carrier exception

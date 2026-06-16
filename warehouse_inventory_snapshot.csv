@@ -1,0 +1,11 @@
+sku,description,warehouse_pool,snapshot_timestamp,physical_on_hand_qty,erp_available_qty,safety_reserve_qty,reserved_other_programs_qty,damaged_quarantine_qty,net_available_after_reserve_qty,warehouse_note
+RRU-64T-A,"64T64R radio unit, baseline",Main Hub,15/07/2026 06:00,18,24,3,2,1,12,ERP feed still includes two damaged quarantine units
+RRU-64T-B,"64T64R radio unit, firmware-B variant",Main Hub,15/07/2026 06:00,5,7,1,0,0,4,Substitute only where policy allows
+CAB-OD-42U,"Outdoor 42U cabinet, baseline",Main Hub,15/07/2026 06:00,12,16,2,1,0,9,ERP shows four more units than physical count
+CAB-OD-42U-S,"Outdoor 42U cabinet, sealed variant",Main Hub,15/07/2026 06:00,7,7,1,0,0,6,Substitute not allowed for coastal sites
+PWR-RECT-3K,"3 kW power rectifier, baseline",Main Hub,15/07/2026 06:00,20,22,4,2,0,14,Safety reserve protects emergency restorations
+PWR-RECT-3K-R,"3 kW power rectifier, revised heat sink",Main Hub,15/07/2026 06:00,3,5,1,0,0,2,Requires power engineer approval by site
+FTK-24F,"24-fibre termination kit, baseline",Main Hub,15/07/2026 06:00,22,26,5,3,0,14,One reserve draw waiver exists for ST-002
+FTK-24F-L,24-fibre long-tail termination kit,Main Hub,15/07/2026 06:00,6,8,1,0,0,5,Substitute for cable tail length 15 m or greater
+CAB-OD-30U,"Outdoor 30U cabinet, small form",Main Hub,15/07/2026 06:00,4,4,1,0,0,3,Not approved for this rollout by policy memo
+RRU-32T-A,32T radio unit legacy,Main Hub,15/07/2026 06:00,9,9,2,0,0,7,Not a permitted substitute for RRU-64T-A
